@@ -8,9 +8,11 @@ $yiq-contrasted-threshold: 200;
 
 
 // _forms.scss
+$input-focus-box-shadow: None;
 $input-border-radius: 16px;
 $input-border-color: $gray-cm;
 $input-bg: $gray-cm;
+$input-focus-border-color: $input-bg;
 
 // _reboot.scss
 label {
@@ -21,9 +23,9 @@ label {
 }
 
 // _buttons.scss
-$btn-padding-y: 12px;
-$btn-padding-x: 47px;
-$btn-font-size: 20px;
+$btn-padding-y: 10px;
+$btn-padding-x: 40px;
+$btn-font-size: 16px;
 $btn-border-radius: 15px;
 
 

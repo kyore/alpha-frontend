@@ -1846,9 +1846,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #EDEDED;
-  border-color: #d9e99f;
+  border-color: #EDEDED;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(176, 210, 55, 0.25);
+  box-shadow: None;
 }
 .form-control::placeholder {
   color: #6c757d;
@@ -2274,8 +2274,8 @@ textarea.form-control {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 12px 47px;
-  font-size: 1.25rem;
+  padding: 10px 40px;
+  font-size: 1rem;
   line-height: 1.5;
   border-radius: 15px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3071,8 +3071,8 @@ input[type=button].btn-block {
 }
 
 .dropdown-toggle-split {
-  padding-right: 35.25px;
-  padding-left: 35.25px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropright .dropdown-toggle-split::after {
   margin-left: 0;
@@ -3323,10 +3323,10 @@ input[type=button].btn-block {
   background-color: #B0D237;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(176, 210, 55, 0.25);
+  box-shadow: None;
 }
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #d9e99f;
+  border-color: #EDEDED;
 }
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
@@ -3446,7 +3446,7 @@ input[type=button].btn-block {
   appearance: none;
 }
 .custom-select:focus {
-  border-color: #d9e99f;
+  border-color: #EDEDED;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(176, 210, 55, 0.25);
 }
@@ -3500,8 +3500,8 @@ input[type=button].btn-block {
   opacity: 0;
 }
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #d9e99f;
-  box-shadow: 0 0 0 0.2rem rgba(176, 210, 55, 0.25);
+  border-color: #EDEDED;
+  box-shadow: None;
 }
 .custom-file-input:disabled ~ .custom-file-label {
   background-color: #e9ecef;
@@ -3556,13 +3556,13 @@ input[type=button].btn-block {
   outline: none;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(176, 210, 55, 0.25);
+  box-shadow: 0 0 0 1px #fff, None;
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(176, 210, 55, 0.25);
+  box-shadow: 0 0 0 1px #fff, None;
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(176, 210, 55, 0.25);
+  box-shadow: 0 0 0 1px #fff, None;
 }
 .custom-range::-moz-focus-outer {
   border: 0;
