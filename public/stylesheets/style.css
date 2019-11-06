@@ -1,0 +1,16 @@
+.login-wrapper {
+  width: 100%;
+  min-height: 100%;
+}
+
+.login-content {
+  background: #ffffff;
+  box-shadow: 5px 5px 6px #00000029;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 469px;
+  padding: 109px 36px 59px 36px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
