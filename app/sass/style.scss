@@ -1,3 +1,9 @@
+@import "colors";
+
+
+$box-shadow: 5px 5px 6px #00000029;
+$border-radius: 50px;
+
 .login-wrapper {
   justify-content: center;
   align-items: center;
@@ -6,12 +12,39 @@
 }
 
 .login-content {
-  background: #ffffff;
-  box-shadow: 5px 5px 6px #00000029;
-  border-radius: 50px;
+  background: $white;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
 
   width: 100%;
   max-width: 400px;
   padding: 80px 30px 40px 30px;
   text-align: center;
+}
+
+.logo-widget {
+  text-align: center;
+  margin: 115px 0 30px 0;
+}
+
+.text-widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $white;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  text-align: center;
+  margin: 30px;
+  min-height: 250px;
+
+
+  a {
+
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $primary;
+  }
 }

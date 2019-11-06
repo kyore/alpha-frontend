@@ -6,13 +6,37 @@
 }
 
 .login-content {
-  background: #ffffff;
+  background: #ffffffff;
   box-shadow: 5px 5px 6px #00000029;
   border-radius: 50px;
   width: 100%;
   max-width: 400px;
   padding: 80px 30px 40px 30px;
   text-align: center;
+}
+
+.logo-widget {
+  text-align: center;
+  margin: 115px 0 30px 0;
+}
+
+.text-widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffffff;
+  box-shadow: 5px 5px 6px #00000029;
+  border-radius: 50px;
+  text-align: center;
+  margin: 30px;
+  min-height: 250px;
+}
+.text-widget a {
+  text-decoration: none;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #B0D236;
 }
 
 /*# sourceMappingURL=style.css.map */
