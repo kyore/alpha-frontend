@@ -102,4 +102,67 @@
   display: block;
 }
 
+.nav-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+}
+.nav-tabs .nav-link {
+  color: #4E4E4E;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav-tabs .nav-link.active {
+  color: #4E4E4E;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #B0D236;
+}
+
+.table-wrap {
+  margin-top: 2.5rem;
+}
+.table-wrap .alpha-table {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.table-wrap .alpha-table th {
+  font-weight: 400;
+}
+.table-wrap .alpha-table td {
+  font-weight: 300;
+}
+
+.text-heading {
+  color: #B0D236;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+
+.help-text {
+  color: #4E4E4E;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.login-form input {
+  border-radius: 16px;
+  border: 1px solid #EDEDED;
+}
+.login-form input:focus {
+  border-color: #EDEDED;
+}
+
+.form-control.gray {
+  background-color: #EDEDED !important;
+}
+
+.form-content {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

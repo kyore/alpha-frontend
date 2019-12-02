@@ -8,6 +8,7 @@ $border-radius: 50px;
   color: $text-black !important;
 }
 
+
 .login-wrapper {
   display: flex;
   justify-content: center;
@@ -118,4 +119,77 @@ $border-radius: 50px;
       display: block;
     }
   }
+}
+
+// Main
+.nav-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+
+  .nav-link {
+    color: $text-black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .nav-link.active {
+    color: $text-black;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $primary;
+  }
+}
+
+.table-wrap {
+  margin-top: 2.5rem;
+
+  .alpha-table {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+
+    th {
+      font-weight: 400;
+    }
+
+    td {
+      font-weight: 300;
+    }
+  }
+}
+
+.text-heading {
+  color: $primary;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+
+.help-text {
+  color: $text-black;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+// Forms
+.login-form {
+  input {
+    border-radius: 16px;
+    border: 1px solid $gray-cm;
+
+    &:focus {
+      border-color: $gray-cm;
+    }
+  }
+}
+
+.form-control.gray {
+  background-color: $gray-cm !important;
+}
+
+.form-content {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
